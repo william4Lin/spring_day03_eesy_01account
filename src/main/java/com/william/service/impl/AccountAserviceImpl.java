@@ -16,11 +16,7 @@ import java.util.List;
 public class AccountAserviceImpl implements IAccountService {
 
     private IAccountDao accountDao;
-    private TranscationMangaer transcationMangaer;
 
-    public void setTranscationMangaer(TranscationMangaer transcationMangaer) {
-        this.transcationMangaer = transcationMangaer;
-    }
 
     public void setAccountDao(IAccountDao accountDao) {
         this.accountDao = accountDao;
