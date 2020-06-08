@@ -16,7 +16,7 @@
     </bean>
 
     <!--配置service-->
-    <bean id="accountService" class="com.william.service.impl.AccountAserviceImpl">
+    <bean id="accountService" class="com.william.service.impl.AccountServiceImpl">
         <!--注入Dao-->
         <property name="accountDao" ref="accountDao"></property>
 

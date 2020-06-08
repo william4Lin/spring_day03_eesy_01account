@@ -21,7 +21,7 @@ public class BeanFactory {
         this.transcationMangaer = transcationMangaer;
     }
 
-    public void setAccountService(IAccountService accountService) {
+    public final void setAccountService(IAccountService accountService) {
         this.accountService = accountService;
     }
 

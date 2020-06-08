@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * 账户业务层的实现类
  */
-public class AccountAserviceImpl implements IAccountService {
+public class AccountServiceImpl implements IAccountService {
 
     private IAccountDao accountDao;
 

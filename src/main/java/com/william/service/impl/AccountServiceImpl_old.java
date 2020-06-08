@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 账户业务层的实现类
  */
-public class AccountAserviceImpl_old implements IAccountService {
+public class AccountServiceImpl_old implements IAccountService {
 
     private IAccountDao accountDao;
     private TranscationMangaer transcationMangaer;
